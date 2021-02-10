@@ -1,0 +1,19 @@
+{
+  "name": "animal-farm-nodejs",
+  "license": "MIT",
+  "version": "0.0.1",
+  "engines": {
+    "node": "12.x"
+  },
+  "dependencies": {
+    "express": "4.x",
+    "lodash.sample": "^4.2.1",
+    "mocha": "8.2.1",
+    "supertest": "6.1.3",
+    "underscore": "^1.12.0"
+  },
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha --exit",
+    "start": "node app.js"
+  }
+}
